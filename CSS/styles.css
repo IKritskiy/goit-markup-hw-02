@@ -1,0 +1,110 @@
+:root {
+--accent-color:#2196F3;
+--primary-color:#212121;
+--text-color: #757575;
+--primary-background-color: #FFFFFF;
+--secondary-background-color: #F5F4FA;
+}
+
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: var(--primary-background-color);
+    color: var(--primary-color)
+}
+
+.logo {
+ color: var(--accent-color);
+}
+
+.logo:focus,
+.logo:hover {
+color:var(--accent-color);
+}
+
+.site-nav a {
+ color: var(--primary-color);
+}
+
+.site-nav a:focus,
+.site-nav a:hover {
+color:var(--accent-color);
+}
+
+.site-nav .link.current {
+color: var(--accent-color);
+}
+
+.contacts-header a {
+color: var(--text-color);
+}
+
+.contacts-header a:focus,
+.contacts-header a:hover {
+ color:var(--accent-color);
+}
+
+.contacts-footer a {
+ color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-footer a:focus,
+.contacts-footer a:hover {
+ color:var(--accent-color);
+}
+
+.section-hero {
+background-color: #2F303A;  
+}
+
+.section-hero h1 {
+color: var(--primary-background-color);
+}
+
+.section-particularities,
+.section-tasks {
+background-color: #E5E5E5;
+}
+
+.section-particularities p,
+.section-team p {
+color: var(--text-color);
+}
+
+.section-team {
+background-color: var(--secondary-background-color);
+}
+
+.section-portfolio
+ {background-color: #E5E5E5;
+}
+
+.section-portfolio p {
+    color: var(--text-color);
+}
+
+.footer {
+background-color: #2F303A;
+}
+
+.address {
+color: var(--primary-background-color);
+}
+
+.button {
+background-color: var(--secondary-background-color);
+border-color: transparent;
+}
+
+.button:focus,
+.button:hover,
+.button:active {
+color: var(--primary-background-color);
+background-color: var(--accent-color);
+border-color: transparent;
+}
+
+
