@@ -101,6 +101,7 @@ color: var(--secondary-background-color);
     text-align: center;
     letter-spacing: 0.06em;
     border-style: none;
+    cursor: pointer;
 }
 
 .primary-button:hover,
@@ -218,6 +219,7 @@ text-decoration: none;
     color: var(--primary-text-color);
     background-color: var(--tertiary-background);
     border-style: none;
+    cursor: pointer;
 }
 
 .secondary-button:focus,
